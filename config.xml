@@ -4,9 +4,10 @@
     <name>SAMOCA</name>
     <description>
       A sample app for PhoneGap Build: First Look </description>
-    <author href="chrisgriffith.wordpress.com" email="chris.griffith@gmail.com">
-      Chris Griffith
-    </author>
+    <author href="https://samoca.org" email="support@samoca.org">
+        Chris Griffith 
+ 	</author>
+ 	
     <platform name="ios" />
     <platform name="android" />
     <platform name="winphone" />
@@ -23,6 +24,8 @@
 	<preference name="exit-on-suspend" value="false" />
 	<preference name="detect-data-types" value="true" />
 	<preference name="prerendered-icon" value="false" />
+	<preference name="ios-statusbarstyle" value="default"/>
+
 	
 	<preference name="android-minSdkVersion" value=”21" />
 	<preference name="android-targetSdkVersion" value=”21" />
