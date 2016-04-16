@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
-   id="com.lynda.samoca" versionCode="1" version="1.0">
+   id="com.lynda.samoca" versionCode="1" version="1.0.1">
     <name>SAMOCA</name>
     <description>
       A sample app for PhoneGap Build: First Look </description>
@@ -24,7 +24,9 @@
 	<preference name="exit-on-suspend" value="false" />
 	<preference name="detect-data-types" value="true" />
 	<preference name="prerendered-icon" value="false" />
+	<preference name="StatusBarOverlaysWebView" value="false" />
 	<preference name="ios-statusbarstyle" value="default"/>
+    <preference name="StatusBarStyle" value="default" />
 	
 	<preference name="android-minSdkVersion" value="21" />
 	<preference name="android-targetSdkVersion" value="21" />
